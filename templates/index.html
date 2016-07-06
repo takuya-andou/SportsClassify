@@ -1,6 +1,10 @@
 {% extends "layout.html" %}
 {% block content %}
-<h1>スポーツの種類を判定</h1>
+<h1><span class="glyphicon glyphicon-hand-right" aria-hidden="true">スポーツの種類判定</span></h1>
+
+<div>
+	アップロードされた画像が4種類のスポーツ（サッカー、バスケットボール、テニス、バレーボール）のどれなのかを判定します。
+</div>
 
 <form action="./classify"
          method="post" enctype="multipart/form-data">
